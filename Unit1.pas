@@ -16,6 +16,7 @@ type
     Button1: TButton;
     Label4: TLabel;
     Label5: TLabel;
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,5 +29,17 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+
+var
+  usuario : string;
+  senha : string;
+
+begin
+  usuario := edit1.Text;
+  senha := edit2.Text;
+  ShowMessage('Usuário: ' + usuario + sLineBreak + 'Senha: ' + senha);
+end;
 
 end.
