@@ -119,4 +119,20 @@ object Form1: TForm1
     TabOrder = 2
     OnClick = Button1Click
   end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=learningDelphi'
+      'Server=localhost'
+      'Password=EC8d@731ca'
+      'User_Name=postgres'
+      'CharacterSet=UTF8'
+      'DriverID=PG')
+    Left = 360
+    Top = 56
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 328
+    Top = 56
+  end
 end
