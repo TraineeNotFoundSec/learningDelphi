@@ -40,24 +40,25 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 
 var
-  usuario : string;
-  senha : string;
+  usuario: string;
+  senha: string;
   query: string;
   encontrado: Boolean;
 
 begin
-  usuario := edit1.Text;
-  senha := edit2.Text;
-  //ShowMessage('Usuário: ' + usuario + sLineBreak + 'Senha: ' + senha);
+  usuario := Edit1.Text;
+  senha := Edit2.Text;
+
   if (usuario = '') or (senha = '') then
   begin
-    ShowMessage('Usuário ou senha incorretos');
+    ShowMessage('Por favor, preencha usuário e senha.');
   end;
 
-query := 'SELECT * FROM user WHERE user = :usuario AND password = :senha';
+  //query := 'SELECT COUNT(*) FROM users WHERE users.user = ''' + usuario + ''' AND users.password = ''' + senha + '''';
+  query := 'SELECT COUNT(*) FROM users WHERE users.user = :usuario AND users.password = :senha';
 
-try
-    FDConnection1.Connected := True;
+  try
+    FDConnection1.Connected := True; // Conecta ao banco de dados
 
     FDQuery1.SQL.Text := query;
     FDQuery1.ParamByName('usuario').AsString := usuario;
@@ -77,8 +78,8 @@ try
       ShowMessage('Erro ao acessar o banco de dados: ' + E.Message);
   end;
 
-  FDConnection1.Connected := False; // Desconecta do banco de dados
-
+  FDConnection1.Connected := False;
 end;
 
 end.
+

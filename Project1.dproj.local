@@ -2,8 +2,8 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2024/10/30 17:32:39.000.629,=C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/10/30 18:26:28.000.269,C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Tela de Login\Unit1.dfm</Transaction>
-    <Transaction>2024/10/30 18:26:28.000.269,C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Tela de Login\Unit1.pas</Transaction>
-    <Transaction>2024/10/30 18:26:33.000.379,C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Tela de Login\Project1.dproj</Transaction>
+    <Transaction>2024/10/30 18:26:28.000.269,C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Tela de Login\Unit1.pas=C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/30 18:26:28.000.269,C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Tela de Login\Unit1.dfm=C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/10/30 18:26:33.000.379,C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Tela de Login\Project1.dproj=C:\Users\quaresma\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
